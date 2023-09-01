@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "name": "doda",
+      "email": "doda1@gmail.com",
+      "pass": "12345",
+      "id": 3
+    }
+  ],
+  "locations": [
+    {
+      "name": "Fox-Fish",
+      "phone": "01017226896",
+      "address": "ismaillia abo-souire",
+      "userId": 3,
+      "id": 19
+    },
+    {
+      "name": "Al shourouq",
+      "phone": "01017226896",
+      "address": "ismaillia alkhamsa",
+      "userId": 3,
+      "id": 20
+    }
+  ],
+  "categories": [
+    {
+      "name": "BreakFast2",
+      "userId": 3,
+      "restaurantId": 19,
+      "id": 4
+    },
+    {
+      "name": "Lunch 2",
+      "userId": 3,
+      "restaurantId": 19,
+      "id": 5
+    },
+    {
+      "name": "dinner 2",
+      "userId": 3,
+      "restaurantId": 19,
+      "id": 6
+    }
+  ],
+  "items": [
+    {
+      "name": "stea",
+      "price": 3,
+      "description": "server with fries and Drink",
+      "qty": 5,
+      "userId": 3,
+      "catId": 4,
+      "restaurantId": 19,
+      "id": 4
+    },
+    {
+      "name": "burrger",
+      "price": "30",
+      "description": "Beef bacon with fresh sautéed mushroom, cheddar cheese, and creamy",
+      "qty": 60,
+      "userId": 3,
+      "catId": 5,
+      "restaurantId": "19",
+      "id": 8
+    }
+  ]
+}
